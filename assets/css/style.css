@@ -1,0 +1,95 @@
+
+body{
+background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+
+
+
+div{
+	background-color:black;
+	margin: 10px;
+    width: 25%;
+    border: solid 2px ba;
+	padding: 10px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h1, h3, span{
+	font-weight: bold;
+    text-align: center;
+    color: lavender;
+}
+h1{
+    font-size: 40px;
+    
+}
+ol{
+    list-style: upper-roman; 
+    color:lavender;
+    padding: 20px;
+}
+ul {
+	list-style: upper-roman;
+	text-indent: 10px;
+}
+
+
+
+div.header{
+    background-color: black;
+    float: center;
+    
+}
+div.instructions{
+    width: 50%;
+    
+}
+
+
+
+.numberToMatch, .winsAndLosses{
+	float: center;
+	width: 15%;
+    height: 60px;
+    color: lavender
+}
+.userTotal{
+	width: 15%;
+    height: 60px;
+    color: lavender;
+}
+.crystals{
+	clear: both;
+}
+.pics{
+	border: 1px solid;
+    height: 150px;
+    width: 150px;
+}
+
+
+
+#blue{
+    color: blue;
+    
+}
+#green{
+	color: green;
+}
+#pink{
+	color: pink;
+}
+#yellow{
+	color: yellow;
+}
